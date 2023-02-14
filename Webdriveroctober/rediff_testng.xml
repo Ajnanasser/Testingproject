@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <test thread-count="5" name="logoTest">
+  <parameter name="logo" value="logotest"></parameter>
+    <classes>
+      <class name="TestNGpkg.Rediff_formtest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="createTest">
+  <parameter name="create" value="createtitle"></parameter>
+    <classes>
+      <class name="TestNGpkg.Rediff_formtest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="valueTest">
+  <parameter name="value" value="valuepass"></parameter>
+    <classes>
+      <class name="TestNGpkg.Rediff_formtest"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->
